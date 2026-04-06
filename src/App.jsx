@@ -3,6 +3,7 @@
 1. 컴포넌트 나누기 실습
 =================================
 
+
 import "./App.css";
 import Input from "./components/Input/Input";
 
@@ -30,6 +31,7 @@ export default App;
 2. props 실습
 =================================
 
+
 import Profile from "./Profile";
 
 function App() {
@@ -49,6 +51,7 @@ export default App;
 ========================================
 3. BrowserRouter, Routes, Route 실습
 ========================================
+
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -83,6 +86,7 @@ export default App;
 ========================================
 4. 중첩라우터(Outlet) 실습
 ========================================
+
 
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 
@@ -203,7 +207,7 @@ function App() {
               textDecoration: "none",
             })}
           >
-            홈
+            홈!
           </NavLink>
 
           <NavLink
