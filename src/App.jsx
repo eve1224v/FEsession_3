@@ -218,7 +218,7 @@ function App() {
               textDecoration: "none",
             })}
           >
-            소개
+            소개!
           </NavLink>
 
           <NavLink

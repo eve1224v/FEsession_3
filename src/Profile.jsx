@@ -1,5 +1,5 @@
 /*
-<<실습 1>>
+1. 구조분해할당 사용 X 
 function Profile(props) {
   return (
     <div>
@@ -12,6 +12,8 @@ function Profile(props) {
 export default Profile;
 */
 
+
+/*2. 구조분해할당 사용 O */
 function Profile({ name, age }) {
   return (
     <div>
